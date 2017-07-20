@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <RelativeLayout
+        android:id="@+id/layout_login_topbar"
+        style="@style/TopbarStyle" >
+
+        <ImageView
+            android:id="@+id/img_criticism_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:src="@drawable/flight_title_back_normal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/detailed_introduce_title"
+            android:textColor="#101010"
+            android:textSize="@dimen/medium_text_size"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/login_top_bg"
+        >
+        <ImageView android:id="@+id/detailed_picture"
+            android:layout_width="200dp"
+            android:layout_height="fill_parent"
+            android:padding="20dp"
+            android:src="@drawable/congbahaishen"
+            android:layout_alignParentLeft="true"/>
+        <TextView android:id="@+id/delicious_name"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/detailed_picture"
+            android:layout_alignTop="@id/detailed_picture"
+            android:text="葱扒海参"/>
+        <TextView android:id="@+id/detailed_price"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/detailed_picture"
+            android:layout_below="@id/delicious_name"
+            android:layout_marginBottom="10dp"
+            android:text="124"
+            android:textColor="#FF0000"/>
+    </RelativeLayout>
+    
+	<LinearLayout android:layout_width="fill_parent"
+	    android:layout_height="200dp"
+	   	android:padding="10dp"
+	    android:layout_margin="30dp"
+	    android:background="@drawable/detailed_introduce_bg"
+	    android:orientation="vertical">
+	    <TextView android:layout_width="fill_parent"
+	       	android:layout_height="0dp"
+	       	android:layout_weight="1"
+	        android:text="餐饮简介："
+	        android:textSize="18sp"/>
+	    <TextView android:id="@+id/detailed_desc"
+	        android:layout_weight="4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp"
+	        android:lineSpacingExtra="5dp"
+	        android:textSize="16sp"
+	        android:text="搜啊件案件多发哦 发就打发酵佛法放假恩知道佛奥大发ID分界面就艾尔艾尔案件多发几份份啊发发骄傲而家具的人的房间爱讲很多家四家那耳机架"
+	        />
+	</LinearLayout>
+	 <LinearLayout android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="20dp"
+	        >
+           <TextView android:layout_width="0dp"
+               android:layout_height="fill_parent"
+               android:text="数量"
+               android:gravity="center_vertical"
+               android:layout_marginLeft="10dp"
+               android:id="@+id/nums"
+               android:layout_weight="1"
+               android:textSize="16sp"/>
+           	<RelativeLayout android:layout_width="0dp"
+           	    android:layout_height="fill_parent"
+           	    android:orientation="horizontal"
+           	    android:layout_toRightOf="@id/nums"
+           	    android:layout_weight="1"
+           	    android:layout_marginRight="10dp">
+	            <ImageView android:id="@+id/iv_minus"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:src="@drawable/icon_minus"
+	                android:layout_centerVertical="true"
+	                android:layout_alignParentLeft="true"
+	               	/>
+	            	
+	            <TextView android:id="@+id/et_nums" 
+	                android:layout_width="50dp"
+	                android:layout_height="30dp"
+	                android:layout_toRightOf="@id/iv_minus"
+	                android:text="1"
+	                android:layout_marginLeft="10dp"
+	                android:gravity="center_vertical|center_horizontal"
+	                android:layout_centerHorizontal="true"
+	                android:layout_centerVertical="true"
+	                android:background="@drawable/detailed_introduce_bg"/>
+	            <ImageView android:id="@+id/iv_plus"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:layout_toRightOf="@id/et_nums"
+	                android:src="@drawable/icon_plus"
+	                android:layout_centerVertical="true"
+	                android:layout_alignParentRight="true"/>
+	         </RelativeLayout>   
+	        
+	        
+	        <RelativeLayout android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_height="fill_parent"
+	           	>
+	            <Button android:id="@+id/bt_submit"
+	                android:layout_width="wrap_content"
+	                android:layout_height="40dp"
+	                android:text="加入菜单"
+	                android:gravity="center"
+	                android:layout_centerVertical="true"
+	                android:layout_alignParentRight="true"
+	                android:background="@drawable/top1_bg"
+	                android:layout_marginRight="10dp"/>
+	        </RelativeLayout>
+		        
+	    </LinearLayout>
+	
+	
+	
+	
+	
+</LinearLayout>

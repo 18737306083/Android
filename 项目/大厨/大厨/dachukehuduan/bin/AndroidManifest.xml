@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.future.dachu"
+    android:versionCode="1"
+    android:anyDensity="true"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="19" />
+ <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        
+        
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"     >
+        <activity
+            
+            android:name="com.dachu.activity.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.dachu.activity.RegisterActivity"></activity>
+        <activity android:name="com.dachu.activity.Listmain"></activity>
+         <activity android:name="com.dachu.activity.AddItems"></activity>
+          <activity android:name="com.dachu.activity.Xue"></activity>
+    </application>
+
+</manifest>

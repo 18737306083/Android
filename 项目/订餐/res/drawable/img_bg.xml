@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:oneshot="false">
+    <!-- 添加多个帧 -->
+	<item android:drawable="@drawable/gpf" android:duration="80"/>
+	<item android:drawable="@drawable/gpg" android:duration="80"/>
+	<item android:drawable="@drawable/gph" android:duration="80"/>
+	<item android:drawable="@drawable/gpi" android:duration="80"/>
+	<item android:drawable="@drawable/gpj" android:duration="80"/>
+	<item android:drawable="@drawable/gpk" android:duration="80"/>
+	<item android:drawable="@drawable/gpl" android:duration="80"/>
+	<item android:drawable="@drawable/gpm" android:duration="80"/>
+	<item android:drawable="@drawable/gpn" android:duration="80"/>
+	<item android:drawable="@drawable/gpo" android:duration="80"/>
+	<item android:drawable="@drawable/gpq" android:duration="80"/>
+	<item android:drawable="@drawable/gpr" android:duration="80"/>
+</animation-list>

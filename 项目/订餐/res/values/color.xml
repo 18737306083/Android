@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="gray">#9c9c9c</color>
+    <color name="red">#FF0000</color>
+    <color name="login_button">#ff775025</color>
+    <color name="hintColor">#d7d7d7</color>
+    <color name="title_bg_color">#E49B1B</color>
+    <color name="like_title_color">#E4B04D</color>
+    <color name="pressBarBg">#f2f2f2</color>
+    <color name="lightBg">#fefefe</color>
+     
+    <color name="btn_login_press">#a83a3a</color>
+    <color name="btn_login_normal">#f15353</color>
+    <color name="btn_login_disabled">#e1e1e3</color>
+    
+    <color name="bt_tab1_collect_critism">#F7A517</color>
+    
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color> 
+      
+    <color name="color_bule">#2F9BFF</color>
+    <color name="color_bule2">#40B3F0</color>
+    <color name="color_bule3">#99ddff</color>
+    <color name="transparent">#00000000</color>
+    <color name="bg_dialog">#EBEBEB</color>
+</resources>

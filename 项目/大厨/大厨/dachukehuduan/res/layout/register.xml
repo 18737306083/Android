@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity" >
+
+    <RelativeLayout
+        android:id="@+id/lvTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/top1_bg" >
+
+        <ImageView
+            android:id="@+id/exeit"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:paddingLeft="4dp"
+            android:src="@drawable/flight_title_back_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+             android:layout_marginLeft="117dp"
+            android:gravity="center"
+            android:text="注册"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lvTop"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.8"
+        android:background="@drawable/register_edit_back"
+        android:drawableLeft="@drawable/icon_user"
+        android:drawablePadding="3dp"
+        android:hint="请输入手机号"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:textColor="#45443D"
+        android:textColorHint="#B8BDBD"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/etPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPhone"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/register_edit_back"
+        android:drawableLeft="@drawable/icon_unlock"
+        android:drawablePadding="3dp"
+        android:hint="请输入密码"
+        android:padding="10dp"
+        android:password="true"
+        android:textColor="#45443D"
+        android:textColorHint="#B8BDBD"
+        android:textSize="21sp" />
+
+    <EditText
+        android:id="@+id/etNextPassWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassWord"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginTop="10dp"
+        android:alpha="0.8"
+        android:background="@drawable/register_edit_back"
+        android:drawableLeft="@drawable/icon_unlock"
+        android:drawablePadding="3dp"
+        android:hint="请再次确认"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColor="#45443D"
+        android:textColorHint="#B8BDBD"
+        android:textSize="21sp" />
+
+    <Button
+        android:id="@+id/complete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNextPassWord"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/btn_ok"
+        android:padding="9dp"
+        android:text="注册"
+        android:textColor="#C0C0C0"
+        android:textSize="21sp" />
+
+</RelativeLayout>

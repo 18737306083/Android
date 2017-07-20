@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">订餐</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="restaurtant_name">为知大酒店</string>
+	<string name="tv_scan">扫一扫</string>
+	<string name="greeting">欢迎您</string>
+	<string name="collect_name">我的收藏</string>
+	<string name="collect_string">过去的美好</string>
+	<string name="my_menu">我的菜单</string>
+	<string name="my_order_form">我的订单</string>
+	<string name="my_menu_desc">马上上菜</string>
+	<string name="personal_info">个人信息</string>
+	<string name="bt_login_register">登录/注册</string>
+	<string name="vegetable">菜系</string>
+	<string name="goodwin">美酒</string>
+	<string name="mysomething">我的</string>
+	<string name="popu_berfor_label">数量:</string>
+	<string name="popu_after_label">改为:</string>
+	<!-- tab01界面字符 -->
+	<string name="tv_vegetables_style_collect">收藏</string>
+	<string name="tv_vegetables_style_criticism">评价</string>
+	<string name="foods_desc_activity_title">美食简介</string>
+	<!-- tab01跳转后的字符 -->
+	<string name="detailed_introduce_title">详细介绍</string>
+	
+	<!-- tab02界面字符 -->
+	<string name="my_order_form_title">我的订单</string>
+	
+	<string name="scan_text">请您用扫描区对准二维码</string>
+    <string name="title_activity_result">ResultActivity</string>
+	
+	
+	<!-- 登录界面的字符 -->
+	<string name="login_title">登录</string>
+	<string name="user_name">账号：</string>
+	<string name="user_password">密码：</string>
+	<string name="user_name_hint">请输入您的手机号</string>
+	<string name="password_edit_hint">请输入密码</string>
+	<string name="login_bt_text">登 录</string>
+	<string name="phone_quickly_register">注册</string> 
+	<string name="find_my_password">找回密码</string>
+	<!-- 注册界面的字符 -->
+	<string name="register_title">注册</string>
+	<!-- 评价页面中的字符 -->
+	<string name="criticism_title">评价</string>
+	<string name="bt_criticism_submit">提交</string>
+	<!-- 注册界面字符 -->
+	<string name="bt_register_name">注册</string>
+	<string name="menu_edit">编辑</string>
+	
+	<!-- 我的菜单相关字符 -->
+	<string name="my_menu_count_name">合计（元）:</string>
+	<string name="tv_my_menu_submit_name">提交</string>
+	<string name="place_num_name">座位号：</string>
+	<string name="tv_progress_name">未接收</string>
+	<string name="tv_dialog">没有任何数据可以显示。。。</string>
+	<string name="detial_title">菜信息</string>
+	<string name="bt_not_login">去登录</string>
+</resources>

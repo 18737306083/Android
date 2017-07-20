@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/layout_login_topbar"
+        style="@style/TopbarStyle" >
+
+        <ImageView
+            android:id="@+id/img_menu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="6dp"
+            android:src="@drawable/flight_title_back_normal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/my_menu"
+            android:textColor="#101010"
+            android:textSize="@dimen/medium_text_size"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         	
+    </RelativeLayout>
+	<com.caiqiufang.mylistview.MyListView
+	    android:id="@+id/my_menu_list"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_below="@id/layout_login_topbar">
+	</com.caiqiufang.mylistview.MyListView>
+	
+	<RelativeLayout
+        android:id="@+id/layout_pay_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottombar_height"
+        android:layout_alignParentBottom="true"
+        android:background="#cc000000" >
+		<LinearLayout android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="horizontal"
+		    android:layout_centerVertical="true"
+		    android:id="@+id/linear_layout"
+		    android:layout_alignParentTop="true">
+		    <TextView android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:text="@string/place_num_name"
+		        android:gravity="center_vertical"
+		        android:background="@drawable/btn_add_to_cart"/>
+		    <EditText android:layout_width="60dp"
+		        android:layout_height="fill_parent"
+		        android:id="@+id/place_num"
+		        android:inputType="number"
+		        />
+		    <TextView
+	            android:id="@+id/tv_progress"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tv_progress_name"
+	            android:textSize="@dimen/large_medium_text_size"
+	            android:textColor="@color/white"
+	            android:textAppearance="?android:attr/textAppearanceLarge" 
+	            android:layout_marginBottom="6dp"/>	
+		</LinearLayout>
+        <TextView
+            android:id="@+id/tv_add_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="@string/my_menu_count_name"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/linear_layout"
+            android:gravity="bottom"
+            android:textSize="@dimen/large_medium_text_size"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+		 <TextView
+            android:id="@+id/tv_count_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+          	android:layout_alignParentBottom="true"
+            android:textSize="@dimen/large_medium_text_size"
+            android:textColor="@color/white"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:layout_toRightOf="@id/tv_add_all"
+            android:layout_alignBottom="@id/tv_add_all"/>	
+        
+        <RelativeLayout 
+            android:id="@+id/btn_pay"
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="@drawable/btn_add_to_cart" >
+            
+	        <TextView
+	            android:id="@+id/tv_pay"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:includeFontPadding="false"
+	            android:textSize="@dimen/large_text_size"
+	            android:textColor="@color/white"
+	            android:text="@string/tv_my_menu_submit_name" />
+        </RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>
